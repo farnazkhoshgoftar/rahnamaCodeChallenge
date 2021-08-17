@@ -7,12 +7,11 @@ import "./commentList.css";
 const CommentList = ({ id }) => {
   const [cmList, setCmList] = useState([]);
 
-  const request = async () => {
+  useEffect(async () => {
     await axios
       .get(`http://localhost:3000/comment?postId=${id}`)
       .then((response) => setCmList(response.data));
-  };
-  useEffect(request, [cmList]);
+  }, [cmList]);
 
   const sortCmList = cmList.sort((a, b) => b.time - a.time);
 

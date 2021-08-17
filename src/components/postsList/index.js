@@ -22,7 +22,7 @@ const PostsList = () => {
   return (
     <>
       <ul className="postsList">
-        {postList && sortPostList.map((post) => <Post info={post} />)}
+        {postList && sortPostList.map((post) => <Post key={post.id} info={post} />)}
       </ul>
     </>
   );

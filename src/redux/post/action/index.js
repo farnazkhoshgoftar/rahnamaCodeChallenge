@@ -34,12 +34,9 @@ export const likePost = (id, like) => {
     dispatch({ type: GET_POST, payload: updatePost });
 
     let updateObject = { like: like + 1 };
-    axios
-      .patch(`http://localhost:3000/addpost/${id}`, updateObject)
-      .then((res) => console.log(res))
-      .catch((error) => {
-        console.log(error);
-      });
+    axios.patch(`http://localhost:3000/addpost/${id}`, updateObject).catch((error) => {
+      console.log(error);
+    });
   };
 };
 
