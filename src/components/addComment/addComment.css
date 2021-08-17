@@ -1,0 +1,31 @@
+.addComment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addComment .icon {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.addComment form {
+    width: calc(100% - 20px);
+    font-size: 14px;
+    background-color: lightgray;
+    direction: rtl;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.addComment form input {
+    all: unset;
+    direction: rtl;
+    width: 95%;
+    text-align: right;
+}
+
+.addComment form button {
+    all: unset;
+    width: 5%;
+}

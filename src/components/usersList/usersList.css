@@ -1,0 +1,20 @@
+.usersListContainer {
+  padding: 10px 0;
+  background: #f5f8fa;
+  margin-top: 3rem;
+  border-radius: 2.5rem;
+  text-align: right;
+ overflow: hidden;
+}
+.usersListContainer ul{
+  padding-left: 0px !important;
+}
+.usersListContainer ul .title{
+  font-size: 22px;
+}
+.usersListContainer ul li {
+  list-style-type: none !important;
+  padding: 10px 20px;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}

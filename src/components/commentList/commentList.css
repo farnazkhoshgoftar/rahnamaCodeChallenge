@@ -1,0 +1,17 @@
+.cmContainer {
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cmContainer .cmContent {
+    font-size: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.cmContainer .cmContent .name{
+    color: blue;
+}

@@ -1,0 +1,10 @@
+.postsList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 30px !important;
+  background-color: #f4f7f6;
+  min-height: calc(100vh - 200px);
+}
+

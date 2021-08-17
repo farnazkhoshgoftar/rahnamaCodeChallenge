@@ -1,0 +1,88 @@
+.addPostContainer {
+  min-height: 200px;
+  width: 100%;
+  background-color: #707070;
+  padding: 10px 0;
+  direction: rtl;
+}
+
+.addPostContainer .addPostContent {
+  width: 40%;
+  min-height: 200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+.addPostContainer .addPostContent .title {
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+  padding: 5px 10px;
+}
+
+.addPostContainer .addPostContent .topRow {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.addPostContainer .addPostContent .bottomRow {
+  border-top: 1px solid rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+  padding: 5px 0px;
+  align-items: center;
+}
+
+.addPostContainer .addPostContent .bottomRow .image {
+  background-color: rgb(233, 233, 233);
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.addPostContainer .addPostContent .bottomRow .image p {
+  display: inline;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.addPostContainer .addPostContent .bottomRow button {
+  all: unset;
+  background-color: rgb(233, 233, 233);
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.addPostContainer .addPostContent form input {
+  border: none;
+  outline: none;
+  width: calc(100% - 60px);
+}
+
+.addPostContainer .addPostContent .smile {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+@media (max-width:768px) {
+  .addPostContainer .addPostContent {
+    width: 80%
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .addPostContainer .addPostContent {
+    width: 60%
+  }
+}

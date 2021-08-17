@@ -1,0 +1,71 @@
+{
+  "signup": [
+    {
+      "userName": "farnaz",
+      "passWord": "1234",
+      "repeatPassWord": "1234",
+      "id": 1
+    },
+    {
+      "userName": "maryam",
+      "passWord": "1111",
+      "repeatPassWord": "1111",
+      "id": 2
+    },
+    {
+      "userName": "mahdi",
+      "passWord": "1212",
+      "repeatPassWord": "1212",
+      "id": 3
+    },
+    {
+      "userName": "mahsa",
+      "passWord": "2323",
+      "repeatPassWord": "2323",
+      "id": 4
+    }
+  ],
+  "addPost": [
+    {
+      "userName": "farnaz",
+      "time": "۱۴۰۰/۵/۲۶",
+      "timeStamp": 1629184199038,
+      "like": 2,
+      "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',",
+      "id": 1
+    },
+    {
+      "userName": "maryam",
+      "time": "۱۴۰۰/۵/۲۶",
+      "timeStamp": 1629184260583,
+      "like": 4,
+      "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',",
+      "id": 2
+    },
+    {
+      "userName": "mahdi",
+      "time": "۱۴۰۰/۵/۲۶",
+      "timeStamp": 1629184378393,
+      "like": 10,
+      "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',",
+      "id": 3
+    },
+    {
+      "userName": "mahsa",
+      "time": "۱۴۰۰/۵/۲۶",
+      "timeStamp": 1629185270983,
+      "like": 1,
+      "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',",
+      "id": 4
+    }
+  ],
+  "comment": [
+    {
+      "userName": "farnaz",
+      "time": 1629185358726,
+      "comment": "good job",
+      "postId": 4,
+      "id": 1
+    }
+  ]
+}
